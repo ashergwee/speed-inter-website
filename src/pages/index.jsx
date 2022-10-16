@@ -41,8 +41,8 @@ export default function Index(){
                         Almost 20 years of experience in the importing and exporting of fruit by truck and by air has helped us build a professional customs clearance team and custom agencies throughout each customs pass of Thailand.
                     </div>
                 </div>
-                <div className=" flex rounded-2xl w-1/2 pl-10 pr-24 h-auto items-center z-10">
-                    <img className="rounded-2xl" src={imageeg} alt="imageeg" />
+                <div className=" flex rounded-2xl w-1/2 pl-10 pr-24 h-auto items-center z-10 justify-end w-full">
+                    <img className="rounded-2xl w-full" src={imageeg} alt="imageeg" />
                 </div>
             </div>
 
