@@ -30,7 +30,7 @@ export default function Index(){
                 </div>
 
             </div>
-            <div className="absolute z-0 top-20 right-0"><img src={wavy} alt="wavy" /></div>
+            <div className="absolute z-0 top-20 right-0 w-screen"><img className="w-full pointer-events-none" src={wavy} alt="wavy" /></div>
             
             <div className="z-10 flex w-full bg-deepest-blue text-lightest-blue font-manrope py-20 h-full">
                 <div className="w-1/2 pl-24">
@@ -41,7 +41,7 @@ export default function Index(){
                         Almost 20 years of experience in the importing and exporting of fruit by truck and by air has helped us build a professional customs clearance team and custom agencies throughout each customs pass of Thailand.
                     </div>
                 </div>
-                <div className=" flex rounded-2xl w-1/2 pl-10 pr-24 h-auto items-center">
+                <div className=" flex rounded-2xl w-1/2 pl-10 pr-24 h-auto items-center z-10">
                     <img className="rounded-2xl" src={imageeg} alt="imageeg" />
                 </div>
             </div>
